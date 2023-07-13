@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "782036664664",
-    "project_id": "welcome-to-soda",
-    "storage_bucket": "welcome-to-soda.appspot.com"
+    "project_number": "131809460710",
+    "project_id": "soda-firebase",
+    "storage_bucket": "soda-firebase.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:782036664664:android:a608a9211dfe9abb1d652d",
+        "mobilesdk_app_id": "1:131809460710:android:973ad3b5b9f0f0e218d627",
         "android_client_info": {
           "package_name": "com.example.welcome_to_soda"
         }
       },
       "oauth_client": [
         {
-          "client_id": "782036664664-u2qb0u6tagntm32r8der76n87bia7l01.apps.googleusercontent.com",
+          "client_id": "131809460710-envdjc2cj4eohb0jhist6mmjfe2sg99h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBEUL8iHbKHRCsqyJYWN2ptNiaAQf-dd2s"
+          "current_key": "AIzaSyDywCB3_HfnvUFLedHaQiYhJg-9ctsjeK0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "782036664664-u2qb0u6tagntm32r8der76n87bia7l01.apps.googleusercontent.com",
+              "client_id": "131809460710-envdjc2cj4eohb0jhist6mmjfe2sg99h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

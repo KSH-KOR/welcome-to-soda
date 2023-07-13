@@ -44,40 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB-ZJjustkzn0u0hUt_H96FIb4GcC2cxPw',
-    appId: '1:782036664664:web:90175c0cd83307bb1d652d',
-    messagingSenderId: '782036664664',
-    projectId: 'welcome-to-soda',
-    authDomain: 'welcome-to-soda.firebaseapp.com',
-    storageBucket: 'welcome-to-soda.appspot.com',
-    measurementId: 'G-8VYNDDRK7T',
+    apiKey: 'AIzaSyAwzgZPPJcmgKKvM7MozUW8yYx68CEghFM',
+    appId: '1:131809460710:web:dfe2f9fac2a275e218d627',
+    messagingSenderId: '131809460710',
+    projectId: 'soda-firebase',
+    authDomain: 'soda-firebase.firebaseapp.com',
+    storageBucket: 'soda-firebase.appspot.com',
+    measurementId: 'G-J6TJ4RNJP6',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBEUL8iHbKHRCsqyJYWN2ptNiaAQf-dd2s',
-    appId: '1:782036664664:android:a608a9211dfe9abb1d652d',
-    messagingSenderId: '782036664664',
-    projectId: 'welcome-to-soda',
-    storageBucket: 'welcome-to-soda.appspot.com',
+    apiKey: 'AIzaSyDywCB3_HfnvUFLedHaQiYhJg-9ctsjeK0',
+    appId: '1:131809460710:android:973ad3b5b9f0f0e218d627',
+    messagingSenderId: '131809460710',
+    projectId: 'soda-firebase',
+    storageBucket: 'soda-firebase.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDjmyHiQ_K7tCQqZjWVq-mRQXNvJ0uOiBs',
-    appId: '1:782036664664:ios:89680d81dd02a5111d652d',
-    messagingSenderId: '782036664664',
-    projectId: 'welcome-to-soda',
-    storageBucket: 'welcome-to-soda.appspot.com',
-    iosClientId: '782036664664-kph0gqqt6q5qpgs511pqq85ri2rpfoao.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAKwmH1-vBYIE1eHbUMoesB75BJLEkHLms',
+    appId: '1:131809460710:ios:499a7ab73883422a18d627',
+    messagingSenderId: '131809460710',
+    projectId: 'soda-firebase',
+    storageBucket: 'soda-firebase.appspot.com',
+    iosClientId: '131809460710-b0tp6fdn3ea884jpararfs385t523bnn.apps.googleusercontent.com',
     iosBundleId: 'com.example.welcomeToSoda',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDjmyHiQ_K7tCQqZjWVq-mRQXNvJ0uOiBs',
-    appId: '1:782036664664:ios:89680d81dd02a5111d652d',
-    messagingSenderId: '782036664664',
-    projectId: 'welcome-to-soda',
-    storageBucket: 'welcome-to-soda.appspot.com',
-    iosClientId: '782036664664-kph0gqqt6q5qpgs511pqq85ri2rpfoao.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAKwmH1-vBYIE1eHbUMoesB75BJLEkHLms',
+    appId: '1:131809460710:ios:499a7ab73883422a18d627',
+    messagingSenderId: '131809460710',
+    projectId: 'soda-firebase',
+    storageBucket: 'soda-firebase.appspot.com',
+    iosClientId: '131809460710-b0tp6fdn3ea884jpararfs385t523bnn.apps.googleusercontent.com',
     iosBundleId: 'com.example.welcomeToSoda',
   );
 }

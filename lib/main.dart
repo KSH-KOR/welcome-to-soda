@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:welcome_to_soda/model/user.dart';
 
 import 'firebase_options.dart';
+import 'newRegisterList/new_register_list.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,8 +55,13 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                Image.asset(
+                  'assets/image/soda_logo.png',
+                  width: size.width,
+                  height: size.height * 0.5,
+                ),
                 const Padding(
-                  padding: EdgeInsets.symmetric(vertical: 100, horizontal: 20),
+                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
                   child: Title(),
                 ),
                 AnimatedOpacity(
@@ -68,14 +74,19 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       NameTextField(
-                          size: size,
-                          textEditingController: _textEditingController),
+                        size: size,
+                        textEditingController: _textEditingController,
+                      ),
                       const SizedBox(
                         height: 50,
                       ),
                       const RegisterButton(),
                     ],
                   ),
+                ),
+                Container(
+                  margin: const EdgeInsets.symmetric(vertical: 20),
+                  child: const NewRegisterList(),
                 ),
               ],
             ),
@@ -111,7 +122,9 @@ class RegisterButton extends StatelessWidget {
                       case ConnectionState.done:
                         return Row(children: [
                           const Icon(Icons.check),
-                          const SizedBox(width: 10,),
+                          const SizedBox(
+                            width: 10,
+                          ),
                           Text("Hi ${snapshot.data!.name} register completed!"),
                         ]);
                       default:
@@ -119,7 +132,7 @@ class RegisterButton extends StatelessWidget {
                     }
                   },
                 )
-                :AnimatedTextKit(
+              : AnimatedTextKit(
                   pause: Duration.zero,
                   repeatForever: true,
                   animatedTexts: [
@@ -131,7 +144,6 @@ class RegisterButton extends StatelessWidget {
                         .toggleIsSubmitted();
                   },
                 ),
-              
         ),
       ),
     );
